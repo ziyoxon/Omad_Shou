@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+body.dark-mode p {
+    color: white;
+}
+
+#wheel{
+    width: 350px; 
+    cursor: pointer;
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.title {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.drum {
+    transition: transform 3s ease-out;
+}
+
+.strelka{
+    position: absolute;
+    top: 25px;
+    left: 50%; 
+    transform: translateX(-50%) rotate(90deg);
+    width: 50px; 
+    height: auto; 
+}
+
+
+
+.dark_btn:hover {
+    background-color: #333;
+}
+
+body.dark-mode {
+    background: #121212; 
+    color: #ffffff;
+}
+
+
+
+
+
+.dark_btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+
+}
